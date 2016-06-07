@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MITM-->
+    <color name="main_bgcolor">#ffebf4fb</color>
+    <color name="main_search_bgcolor">#ffc1d9f3</color>
+    <color name="main_table_head">#ffF0F0F0</color>
+    <color name="main_table_normal">#ff93bcdc</color>
+    <color name="main_login_bgcolor">#ff2197db</color>
+    
+    <color name="orange">#ffFFA500</color>
+    <color name="dimgray">#ff696969</color>
+    <color name="gray">#ff808080</color>
+    <color name="green">#ff008000</color>
+    <color name="lime">#ff00ff00</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="red">#ffff0000</color>
+    <color name="lightGray">#ffd3d3d3</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#b0000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+
+    
+
+    <color name="start_animation_tv">#ffadadb0</color>
+    <color name="soft_list_item_1">#ff98989c</color>
+    <color name="soft_list_item_2">#ffadadb0</color>
+    <color name="list_item_soft_author">#ff3a3a3a</color>
+    <color name="list_item_soft_name">#ff000000</color>
+    <color name="list_item_soft_comments_num">#ff3a3a3a</color>
+    <color name="list_item_soft_version">#ff3a3a3a</color>
+    <color name="list_item_soft_pay">#ff646d74</color>
+    <color name="non_transparent">#ff000000</color>
+
+    <color name="listview_bg">#ff000000</color>
+
+    <!-- 玩机宝典Title文字颜色 -->
+    <color name="wanjibaodian_color_title_text">#ffd800</color>
+
+    <!-- 主页Tab选中 -->
+    <color name="color_307c00">#307c00</color>
+
+    <!-- Tab Bar -->
+    <color name="tabhost_color">#ff246e9d</color>
+    <!-- 下载启动 -->
+    <color name="color_ffc375">#ffffc375</color>
+
+    <!-- 搜索框字体 -->
+    <color name="color_search_text">#ffc28400</color>
+
+    <!-- 主界面菜单 -->
+    <color name="color_main_menu">#ffffc154</color>
+
+    <!-- 使用须知索引 -->
+    <color name="color_help_index">#ffcecece</color>
+    <color name="color_help_anwser">#ff483100</color>
+    <color name="color_popview_title">#fde4c3</color>
+
+    <!-- 论坛 -->
+    <color name="color_luntan_list_content">#ff191919</color>
+
+    <!-- 论坛个人中心 -->
+    <color name="color_d4cebc">#ffd4cebc</color>
+
+    <!-- 编辑个人资料 -->
+    <color name="color_luntan_usercenter_edit_3a3a3a">#ff3a3a3a</color>
+
+    <!-- 玩机宝典-暗绿 -->
+    <color name="color_wanjibaodian_dark_green">#ff1f3331</color>
+    <color name="color_wanjibaodian_gray_white">#ffddffff</color>
+    <color name="color_wanjibaodian_9e9d9d">#ff9e9d9d</color>
+
+    <!-- 玩机宝典-浅绿 -->
+    <color name="color_light_green">#5d786f</color>
+    <!-- 玩机宝典-土黄 -->
+    <color name="color_yellow_brown">#ae7b39</color>
+    <!-- 玩机宝典-浅绿2 -->
+    <color name="color_light_green2">#7f948d</color>
+    <!-- 玩机宝典-灰白1 -->
+    <color name="color_ffffff">#ffffff</color>
+
+    <!-- 玩机宝典-用户名黄 -->
+    <color name="color_c07500">#c07500</color>
+
+    <!-- 搜索：热词颜色 -->
+    <color name="color1">#e1c492</color>
+    <color name="color2">#f7e3bd</color>
+    <color name="color3">#bdeaf7</color>
+    <color name="color4">#beedc0</color>
+    <color name="color5">#bdeaf7</color>
+    <color name="color6">#fedbeb</color>
+
+</resources>

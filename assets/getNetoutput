@@ -1,0 +1,9 @@
+#!/bin/bash
+#edit by yiweng
+
+out1=$(cat /proc/net/dev)
+
+
+echo "$out1"
+
+exit 0

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/functionbg" >
+
+    <CheckBox
+        android:id="@+id/DisableAutoTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disable AutoTest" />
+    <CheckBox
+        android:id="@+id/DisableUEScreenTrace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disable UE Screen Trace" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/ServerAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="Server Address"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>

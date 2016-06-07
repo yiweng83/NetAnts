@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/functionbg"
+      >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="148sp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="148sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/showPingConfig"
+                android:layout_width="148sp"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/ConfigPing"
+            android:layout_width="148sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PING&amp;URL" />
+
+        <Button
+            android:id="@+id/ConfigMail"
+            android:layout_width="148sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MAIL" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/configFtp"
+            android:layout_width="148sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FTP" />
+
+        <Button
+            android:id="@+id/ConfigAutotest"
+            android:layout_width="148sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AUTO TEST" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/ConfigAttach"
+            android:layout_width="148sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ATTACH" />
+
+        <Button
+            android:id="@+id/ConfigShow"
+            android:layout_width="148sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SHOW CONFIG" />
+
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/ConfigMulti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MultiTask" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/showAllConfig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+</LinearLayout>

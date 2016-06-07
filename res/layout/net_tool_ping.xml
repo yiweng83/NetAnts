@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/functionbg"
+     >
+    <TextView
+                 android:id="@+id/showPingConfig"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"/>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip" >
+
+        <TextView
+            android:id="@+id/UE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL Address" />
+
+        <EditText
+	        android:id="@+id/ping_ip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/biankuang"
+            android:layout_marginRight="10sp"
+            android:ems="10"
+            android:paddingLeft="5sp" 
+	        android:hint="URL Address"
+	        />
+
+    </LinearLayout>
+
+                 <Button
+                     android:id="@+id/ping_btn"
+                     android:layout_width="fill_parent"
+                     android:layout_height="44dp"
+                     android:text="PING" />
+
+                  <Button
+                      android:id="@+id/ping_clean_btn"
+                      android:layout_width="fill_parent"
+                      android:layout_height="44dp"
+                      android:text="Clear Record File" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="357dp"
+        android:layout_margin="5dip" >
+
+        <TextView 
+            android:id="@+id/ping_result" 
+	        android:textColor="@color/black"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" />
+    </ScrollView>
+    
+
+</LinearLayout>

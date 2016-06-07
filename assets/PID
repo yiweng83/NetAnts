@@ -1,0 +1,4 @@
+#!/bin/bash
+in=$(ps | /data/local/tmp/busybox grep -c busyboxdownup)
+   echo "$in"
+exit 0

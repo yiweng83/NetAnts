@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="@drawable/functionbg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnAutoTest"
+            android:layout_width="148sp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:text="AUTO TEST" />
+
+        <Button
+            android:id="@+id/Config"
+            android:layout_width="148sp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:text="CONFIG" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        >
+
+        <Button
+            android:id="@+id/main_btn_ping"
+            android:layout_width="148sp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:text="PING" />
+
+        <Button
+            android:id="@+id/main_btn_url"
+            android:layout_width="148sp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:text="URL" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/main_btn_traceroute"
+            android:layout_width="148sp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:text="MultiTask" />
+
+        <Button
+            android:id="@+id/main_btn_ftp"
+            android:layout_width="148sp"
+            android:layout_height="80sp"
+            android:layout_weight="1"
+            android:text="FTP" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/airplane"
+                android:layout_width="148sp"
+                android:layout_height="80sp"
+                android:layout_weight="1"
+                android:text="ATTACH" />
+
+            <Button
+                android:id="@+id/ImageButton"
+                android:layout_width="148sp"
+                android:layout_height="80sp"
+                android:layout_weight="1"
+                android:text="UE STATUS" />
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/UE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+                <TextView
+            android:id="@+id/attention"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+
+</LinearLayout>

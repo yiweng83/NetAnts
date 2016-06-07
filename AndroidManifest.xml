@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MY.pingtest"
+    android:versionCode="2"
+    android:versionName="2.7"
+    >
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_CONTENT_PROVIDERS_EXTERNALLY"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>   
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED">
+    </uses-permission>
+         
+     
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.MY.netTools.business.RawData"
+        >
+        <receiver android:name="com.MY.netTools.MainActivity$BootBroadcastReceiver">
+         <intent-filter>
+         <action android:name="android.intent.action.BOOT_COMPLETED" />
+         </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.MY.netTools.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>         
+        </activity>
+        
+        
+        <activity android:name="com.MY.netTools.PingActivity"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.MY.netTools.UrlActivity"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.MY.netTools.MailActivity"
+            android:screenOrientation="portrait" ></activity>
+         <activity android:name="com.MY.netTools.Ftp"
+            android:screenOrientation="portrait" ></activity>
+         <activity android:name="com.MY.netTools.myConfig"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.MY.netTools.FtpLogin"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.MY.netTools.runFtp"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.MY.netTools.AttachActivity"
+            android:screenOrientation="portrait" ></activity>
+        <activity android:name="com.MY.netTools.MainActivity"
+            android:screenOrientation="portrait" ></activity>
+         <activity android:name="com.MY.netTools.UEstatuesActivity"
+            android:screenOrientation="portrait" ></activity>
+         <activity android:name="com.MY.netTools.AutoTest"
+            android:screenOrientation="portrait" ></activity>
+         <service  android:name="com.MY.netTools.clientService"
+            android:process=":message"></service>  
+         <service  android:name="com.MY.netTools.Fxservice"
+            android:process=":message1"></service>  
+         <service  android:name="com.MY.netTools.SocketService"
+            android:process=":message2"></service>  
+                  
+         
+    </application>
+	
+    
+</manifest>

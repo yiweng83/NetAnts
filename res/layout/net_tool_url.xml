@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/functionbg" >
+
+
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/UE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL Address" />
+
+        <EditText
+            android:id="@+id/url_ip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/biankuang"
+            android:hint="URL Address"
+             />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/url_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="open" />
+
+    <WebView
+        android:id="@+id/url_show"
+        android:layout_width="fill_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/functionbg" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Ulr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use new Record File" />
+
+</LinearLayout>
